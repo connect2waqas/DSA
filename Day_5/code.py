@@ -38,8 +38,8 @@ print(lot)
 
 # second Method: (real solution)
 lot = [10,20,30,40,50]
-last_car = lot[-1]
+last_value = lot[-1]
 for i in range(len(lot) - 1,0,-1):
     lot[i] = lot[i -1]
-lot[0] = last_car
+lot[0] = last_value
 print(lot)
