@@ -10,11 +10,9 @@ for i in prices:
         potiential_profit = i - lowest_price
         if potiential_profit > max_profit:
             max_profit = potiential_profit
-
 # print(max_profit)
 
 binary = [1, 1, 0, 1, 1, 1, 0, 1]
-
 current_streak = 0
 max_streak = 0
 for i in binary:
@@ -25,6 +23,7 @@ for i in binary:
     else:
         current_streak = 0
 # print(max_streak)
+
 # First way: but not recommend for this question:
 lot = [10,20,30,40,50]
 lot[::] = lot[::-1]
