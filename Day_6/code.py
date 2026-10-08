@@ -13,5 +13,4 @@ def TwoSum(weight,target):
 
 weight = [2, 7, 11, 15]
 target = 9
-
 print(TwoSum(weight,target))
