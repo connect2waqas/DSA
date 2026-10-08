@@ -24,4 +24,17 @@ for i in binary:
             max_streak = current_streak
     else:
         current_streak = 0
-print(max_streak)
+# print(max_streak)
+
+lot = [10,20,30,40,50]
+lot[::] = lot[::-1]
+lot[1::] = lot[:0:-1] # here is the one solution
+left = 1
+right = len(lot) -1
+while left < right:
+    lot[left],lot[right] = lot[right], lot[left]
+    right -= 1
+    left +=1
+print(lot)
+
+
