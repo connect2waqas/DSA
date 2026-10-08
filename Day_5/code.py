@@ -25,10 +25,10 @@ for i in binary:
     else:
         current_streak = 0
 # print(max_streak)
-
+# First way: but not recommend for this question:
 lot = [10,20,30,40,50]
 lot[::] = lot[::-1]
-lot[1::] = lot[:0:-1] # here is the one solution
+lot[1::] = lot[:0:-1] # here is the another solution
 left = 1
 right = len(lot) -1
 while left < right:
@@ -37,4 +37,10 @@ while left < right:
     left +=1
 print(lot)
 
-
+# second Method: (real solution)
+lot = [10,20,30,40,50]
+last_car = lot[-1]
+for i in range(len(lot) - 1,0,-1):
+    lot[i] = lot[i -1]
+lot[0] = last_car
+print(lot)
