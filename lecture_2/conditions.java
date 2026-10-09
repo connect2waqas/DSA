@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 
 // public class conditions {
 //     public static void  main (String[] args){
@@ -26,9 +26,9 @@ import java.util.*;
 //     }
 // }
 
-public class conditions {
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+// public class conditions {
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
         // System.out.print("Enter a Number: ");
         // int a = sc.nextInt();
         // System.out.print("Enter a second Number: ");
@@ -52,5 +52,5 @@ public class conditions {
         //     default : System.out.println("Invalid Button");
         // }
         // calculater through switch
-    }
-}
+    // }
+// }

@@ -1,5 +1,5 @@
-public class loops {
-    public static void main(String[] args) {
+// public class loops {
+//     public static void main(String[] args) {
         // System.out.println("We have to print hello word through loop");
         // for(int i=0;i< 10;i+=1) {
         //     System.out.println("Hello world!");
@@ -24,11 +24,11 @@ public class loops {
         // }
         // System.out.println(sum);
 
-        int num = 4;
-        int num2 = 10;
-        for (int i = 1; i < num2; i ++) {
-            System.out.println(num +" X "+ i+" = " + i * num);
-        }
+//         int num = 4;
+//         int num2 = 10;
+//         for (int i = 1; i < num2; i ++) {
+//             System.out.println(num +" X "+ i+" = " + i * num);
+//         }
     
-    } 
-}
+//     } 
+// }
