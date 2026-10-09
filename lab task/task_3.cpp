@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int main() {
 	int numbers[100];
@@ -6,16 +7,16 @@ int main() {
 	int searchValue;
 	int foundIndex = -1;
 
-	std::cout << "Enter the number of elements: ";
-	std::cin >> size;
+	cout << "Enter the number of elements: ";
+	cin >> size;
 
-	std::cout << "Enter the elements: ";
+	cout << "Enter the elements: ";
 	for (int index = 0; index < size; index++) {
-		std::cin >> numbers[index];
+		cin >> numbers[index];
 	}
 
-	std::cout << "Enter the value to search: ";
-	std::cin >> searchValue;
+	cout << "Enter the value to search: ";
+	cin >> searchValue;
 
 	for (int index = 0; index < size; index++) {
 		if (numbers[index] == searchValue) {
@@ -25,9 +26,9 @@ int main() {
 	}
 
 	if (foundIndex != -1) {
-		std::cout << "Value found at index " << foundIndex << ".\n";
+		cout << "Value found at index " << foundIndex << ".\n";
 	} else {
-		std::cout << "Value not found.\n";
+		cout << "Value not found.\n";
 	}
 
 	return 0;

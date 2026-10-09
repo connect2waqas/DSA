@@ -1,15 +1,16 @@
 #include <iostream>
+using namespace std;
 
 int main() {
 	int numbers[100];
 	int size;
 
-	std::cout << "Enter the number of elements: ";
-	std::cin >> size;
+	cout << "Enter the number of elements: ";
+	cin >> size;
 
-	std::cout << "Enter the elements: ";
+	cout << "Enter the elements: ";
 	for (int index = 0; index < size; index++) {
-		std::cin >> numbers[index];
+		cin >> numbers[index];
 	}
 
 	for (int pass = 0; pass < size - 1; pass++) {
@@ -22,16 +23,16 @@ int main() {
 		}
 	}
 
-	std::cout << "Ascending order: ";
+	cout << "Ascending order: ";
 	for (int index = 0; index < size; index++) {
-		std::cout << numbers[index] << " ";
+		cout << numbers[index] << " ";
 	}
 
-	std::cout << "\nDescending order: ";
+	cout << "\nDescending order: ";
 	for (int index = size - 1; index >= 0; index--) {
-		std::cout << numbers[index] << " ";
+		cout << numbers[index] << " ";
 	}
 
-	std::cout << "\n";
+	cout << "\n";
 	return 0;
 }
