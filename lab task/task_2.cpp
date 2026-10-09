@@ -1,39 +1,39 @@
 #include <iostream>
 using namespace std;
+
 int main() {
-	double firstNumber;
-	double secondNumber;
+	int first_number;
+	int second_number;
 	char operation;
-
+	
 	cout << "Enter first number: ";
-	cin >> firstNumber;
-
-	cout << "Enter an operation (+, -, *, /): ";
+	cin >> first_number;
+	cout << "Enter second number: ";
+	cin >> second_number;
+	cout << "Enter operation: ";
 	cin >> operation;
 
-	cout << "Enter second number: ";
-	cin >> secondNumber;
-
-	switch (operation) {
+	switch (operation){
 		case '+':
-			cout << "Result: " << firstNumber + secondNumber << "\n";
-			break;
+		cout << "Result = " << first_number + second_number <<"\n";
+		break;
 		case '-':
-			cout << "Result: " << firstNumber - secondNumber << "\n";
-			break;
+		cout << "Result = " << second_number - first_number <<"\n";
+		break;
 		case '*':
-			cout << "Result: " << firstNumber * secondNumber << "\n";
-			break;
+		cout << "Multiplication: " << first_number * second_number << "\n";
+		break;
 		case '/':
-			if (secondNumber == 0) {
-				cout << "Error: division by zero is not allowed.\n";
-			} else {
-				cout << "Result: " << firstNumber / secondNumber << "\n";
-			}
-			break;
-		default:
-			cout << "Error: invalid operation.\n";
-	}
+		if (second_number == 0){
+			cout << "Division by Zero are not allowed\n";
 
-	return 0;
+		}
+		else {
+			cout << "Division = "<< first_number / second_number << "\n";
+		}
+		break;
+		default:
+		cout << "invalid operation\n";
+
+	}
 }
