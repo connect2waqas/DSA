@@ -1,9 +1,9 @@
-// public class loops {
-//     public static void main(String[] args) {
-        // System.out.println("We have to print hello word through loop");
-        // for(int i=0;i< 10;i+=1) {
-        //     System.out.println("Hello world!");
-        // }
+public class loops {
+    public static void main(String[] args) {
+        System.out.println("We have to print hello word through loop");
+        for(int i=0;i< 10;i+=1) {
+            System.out.println("Hello world!");
+        }
         // for (int counter = 1; counter < 11; counter +=1){
         //     System.out.println(counter);
         // }
@@ -30,5 +30,5 @@
 //             System.out.println(num +" X "+ i+" = " + i * num);
 //         }
     
-//     } 
-// }
+    } 
+}
