@@ -23,7 +23,6 @@ public class loops {
         //     sum += sum;
         // }
         // System.out.println(sum);
-
 //         int num = 4;
 //         int num2 = 10;
 //         for (int i = 1; i < num2; i ++) {
