@@ -24,3 +24,21 @@ views = [10, 20, 50, 10, 60, 20, 5]
 k = 4
 highest_views = highest_streak(views,k)
 print(highest_views)
+
+def pack_suitcase(weights,limit):
+    left = 0
+    current_sum = 0
+    max_items = 0
+    for right in range(len(weights)):
+        current_sum += weights[right]
+        while current_sum > limit:
+            current_sum -= weights[left]
+            left +=1
+        current_items = right - left + 1
+        if current_items > max_items:
+            max_items = current_items
+    return max_items
+weights = [10, 20, 30, 5, 10, 15, 10]
+limit = 40
+v = pack_suitcase(weights,limit)
+print(v)
