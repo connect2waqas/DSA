@@ -16,3 +16,15 @@ s1 = Solutions()
 text = "abcabcbb"
 t1 = s1.LengthOfLongestSubstring(text)
 print(t1)
+
+
+def minimum_window(load,S):
+    left = 0
+    max_len = 0
+    
+
+
+
+load = [2, 3, 1, 2, 4, 3]
+S = 7
+minimum_window(load,S)
