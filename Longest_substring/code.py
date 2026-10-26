@@ -15,7 +15,7 @@ class Solution:
 s1 = Solution()
 text = "abcabcbb"
 t1 = s1.LengthOfLongestSubstring(text)
-# print(t1)
+print(t1)
 
 class Solution_to_shortest_window:
     def shortest_alarm_window(self,load: list, S : int) -> int:
