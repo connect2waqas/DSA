@@ -1,66 +1,93 @@
 # Data Structures and Algorithms
 
-This is my personal DSA practice repository. I am using it to learn the basics, solve small problems, and get more comfortable writing code.
+This repository contains my practice work while learning data structures and
+algorithms with Python, Java, and C++.
 
-Most of the work here comes from lectures, practice sessions, and lab tasks. The examples are written in Python, Java, and C++.
-
-## What is inside?
-
-- `Day_5/` contains Python practice with arrays and loops.
-- `Day_6/` contains array problems such as Two Sum and removing duplicates.
-- `lecture_1/` contains introductory Java programs.
-- `lecture_2/` contains Java examples using conditions.
-- `lecture_3/` contains Java examples using loops.
-- `lecture_4/` contains basic Python array exercises.
-- `lecture_5/` contains Python exercises for traversing and changing arrays.
-- `lab task/` contains C++ lab assignments and their compiled files.
-
-## Topics I am practicing
-
-Some of the topics covered so far are:
-
-- Working with arrays
-- Traversing and updating array values
-- Reversing and rotating arrays
-- Finding the largest value
-- Finding the best possible profit
-- Removing duplicates from a sorted array
-- Using the two-pointer approach
-- Writing conditions and loops
-
-## How to run the programs
+## Repository contents
 
 ### Python
 
-Run a Python file from the repository folder like this:
-
-```bash
-python Day_6/RemoveDuplicated.py
-```
-
-You can use the same command for the other Python files by changing the file path.
+- `Day_5/` - stock profit, longest consecutive streak, and array rotation.
+- `Day_6/` - removing duplicates from a sorted array and the Two Sum problem.
+- `Day_7/` - squaring a sorted array with the two-pointer technique.
+- `Day_8/` - subsequence checking and finding common values in sorted arrays.
+- `lecture_4/` - Python arrays and user input.
+- `lecture_5/` - array traversal, updates, reversing, moving zeroes, and
+  comparisons.
+- `Longest_substring/` - longest substring without repeated characters and
+  shortest subarray with a target sum.
+- `Old_Practice/` - earlier sliding-window practice.
+- `Python_pattern/` - star and number pattern exercises.
+- `Sliding_windows/` - fixed-size and variable-size sliding-window problems.
+- `swiping/` - swapping two values.
 
 ### Java
 
-Compile a Java file and then run it:
+- `lecture_1/` - a basic Hello World program.
+- `lecture_2/` - condition, comparison, and switch statement examples.
+- `lecture_3/` - `for`, `while`, and `do-while` loop examples.
+
+### C++
+
+- `CPP/Pattern/` - square, triangle, and number pattern exercises.
+- `lecture_6/` - arrays, functions, and passing strings by reference.
+- `lab task/` - programs for creating email addresses, using a calculator,
+  linear search, and bubble sort.
+- `Stack/` - a fixed-size stack with push, pop, and display operations.
+
+Compiled files such as `.exe` and `.class` files are also present in some
+folders as local build output.
+
+## Topics practiced
+
+- Arrays and array traversal
+- Two-pointer techniques
+- Sliding-window techniques
+- Searching and sorting
+- Array rotation, reversal, and duplicate removal
+- Subsequence and common-element problems
+- Stacks
+- Conditions, loops, functions, and references
+- Console input and output
+- Pattern printing
+
+## Running the programs
+
+Run commands from the repository root.
+
+### Python
 
 ```bash
-javac lecture_1/Helloworld.java
+python Day_6\TwoSum.py
+python Longest_substring\code.py
+python Sliding_windows\code.py
+```
+
+Use the relevant file path to run another Python exercise. Some programs
+request input from the terminal.
+
+### Java
+
+Compile and run a Java file from the repository root:
+
+```bash
+javac lecture_1\Helloworld.java
 java -cp lecture_1 Helloworld
 ```
 
 ### C++
 
-For example, compile the first lab task with:
+Compile a source file with a C++ compiler, then run the generated executable:
 
 ```bash
-g++ "lab task/task_1.cpp" -o "lab task/task_1"
+g++ "lab task\task_1.cpp" -o "lab task\task_1.exe"
+& ".\lab task\task_1.exe"
 ```
 
-The exact command for running the compiled file depends on the operating system and compiler being used.
+The exact executable command may vary by operating system and compiler.
 
-## A small note
+## Note
 
-Some of these files are still practice work, so they may contain commented-out code, unfinished examples, or programs that ask for input in the terminal. I am keeping them here to track my progress and refer back to the concepts later.
-
-I will continue adding new problems and solutions as I learn more about data structures and algorithms.
+These are learning exercises, so some files contain commented-out examples or
+experiments. The repository will continue to grow as I practice more data
+structures and algorithms.
