@@ -20,6 +20,15 @@ def pattern_4(n):
             print(i,end="")
         print()
 
+def pattern_5(n):
+    for i in range(n):
+        print(n * "*")
+        n -=1
+def pattern_6(n):
+    for i in range(n):
+        for j in range(1,n-i+1):
+            print(j,end="")
+        print()
 def calling():
     number = int(input("Enter a number: "))
     for i in range(number):
@@ -27,6 +36,8 @@ def calling():
         # pattern_1(numbers)
         # pattern_2(numbers)
         # pattern_3(numbers)
-        pattern_4(numbers)
+        # pattern_4(numbers)
+        # pattern_5(numbers)
+        pattern_6(numbers)
 calling()
 
