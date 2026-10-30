@@ -38,6 +38,5 @@ def calling():
         # pattern_3(numbers)
         # pattern_4(numbers)
         # pattern_5(numbers)
-        pattern_6(numbers)
-calling()
-
+        # pattern_6(numbers)
+# calling()
