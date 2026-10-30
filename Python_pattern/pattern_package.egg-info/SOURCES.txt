@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+pattern_package/__init__.py
+pattern_package/cli.py
+pattern_package/patterns.py
+pattern_package.egg-info/PKG-INFO
+pattern_package.egg-info/SOURCES.txt
+pattern_package.egg-info/dependency_links.txt
+pattern_package.egg-info/entry_points.txt
+pattern_package.egg-info/top_level.txt

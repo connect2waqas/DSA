@@ -1,0 +1,2 @@
+[console_scripts]
+pattern-cli = pattern_package.cli:main
