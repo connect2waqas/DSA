@@ -17,7 +17,7 @@ algorithms with Python, Java, and C++.
 - `Longest_substring/` - longest substring without repeated characters and
   shortest subarray with a target sum.
 - `Old_Practice/` - earlier sliding-window practice.
-- `Python_pattern/` - star and number pattern exercises.
+- `Python_pattern/` - a small installable package for star and number patterns.
 - `Sliding_windows/` - fixed-size and variable-size sliding-window problems.
 - `swiping/` - swapping two values.
 
@@ -65,6 +65,38 @@ python Sliding_windows\code.py
 
 Use the relevant file path to run another Python exercise. Some programs
 request input from the terminal.
+
+### Python pattern package
+
+The `Python_pattern` folder is organized as a small Python package. Its
+reusable pattern functions are in `pattern_package\patterns.py`, while the
+interactive program is in `pattern_package\cli.py`.
+
+From the repository root, install the package in editable mode:
+
+```powershell
+cd Python_pattern
+python -m pip install -e .
+```
+
+Run the interactive pattern program with:
+
+```powershell
+python -m pattern_package.cli
+```
+
+The program asks how many patterns to print and the size of each pattern.
+You can also import a pattern into another Python file:
+
+```python
+from pattern_package import pattern_7
+
+pattern_7(5)
+```
+
+Using `python -m pattern_package.cli` is recommended on Windows because the
+installed `pattern-cli` command may not be available if Python's Scripts
+folder is not included in `PATH`.
 
 ### Java
 
